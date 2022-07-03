@@ -1,0 +1,40 @@
+[General]
+allow-wifi-access = false
+ipv6 = true
+dns-server = system
+
+[Proxy Group]
+日本 = select, policy-path=https://sub.store/download/naixi-JP, update-interval=3600, no-alert=0, hidden=0, include-all-proxies=0
+台湾 = select, policy-path=https://sub.store/download/naixi-tw, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+巴哈姆特 = select, 台湾, no-alert=0, hidden=0
+哔哩哔哩 = select, DIRECT, 台湾, no-alert=0, hidden=0
+香港 = select, policy-path=https://sub.store/download/naixi-HK, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+奶昔 = select, policy-path=https://sub.store/download/naixi, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
+
+[Rule]
+DOMAIN,transit.finance,日本
+DOMAIN-KEYWORD,tokenpocket,香港
+DOMAIN,tokenpocket.pro,香港
+DOMAIN,a.iqmtp.live,DIRECT
+DOMAIN,wiz.world,DIRECT
+DOMAIN,binance.com,香港
+DOMAIN,gate.info,香港
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list,巴哈姆特
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,日本
+AND,((RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list), (RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list)),哔哩哔哩
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,DIRECT
+FINAL,日本
+
+[Host]
+*.adguard-dns.com = server:94.140.14.49
+
+[MITM]
+ca-passphrase = 3B8E4823
+ca-p12 = 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
