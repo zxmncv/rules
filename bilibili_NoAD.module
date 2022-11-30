@@ -49,5 +49,3 @@ biliad=type=http-response,pattern=^https?:\/\/api\.vc\.bilibili\.com\/dynamic_sv
 biliad=type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
 #～BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
 biliad=type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_Proto去广告@app2smile
-biliad=type=http-response,pattern=^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$,requires-body=1,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js
