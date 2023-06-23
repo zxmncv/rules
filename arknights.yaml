@@ -1,0 +1,17 @@
+payload:
+  # 内容：arknights
+  # 数量：13条
+  # USER-AGENT,arknights*
+  - DOMAIN-SUFFIX,ak-conf.arknights.jp
+  - DOMAIN-SUFFIX,ark-jp-static-online.yo-star.com
+  - DOMAIN-SUFFIX,as.arknights.jp
+  - DOMAIN-SUFFIX,passport.arknights.jp
+  - DOMAIN-SUFFIX,arknights.jp
+  - DOMAIN-SUFFIX,config.uca.cloud.unity3d.com
+  - DOMAIN-SUFFIX,minor-api-os.hoyoverse.com
+  - DOMAIN-SUFFIX,hk4e-sdk-os.hoyoverse.com
+  - DOMAIN-SUFFIX,log-upload-os.hoyoverse.com
+  - DOMAIN-SUFFIX,webstatic.hoyoverse.com
+  - DOMAIN-SUFFIX,sg-public-data-api.hoyoverse.com
+  - DOMAIN-SUFFIX,sdk-os-static.hoyoverse.com
+  - DOMAIN-SUFFIX,hoyoverse.com
