@@ -1,0 +1,5 @@
+payload:
+  # 内容：bitdefender
+  # 数量：1条
+  # USER-AGENT,bitdefender*
+  - DOMAIN-SUFFIX,bitdefender.net
