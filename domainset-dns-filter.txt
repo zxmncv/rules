@@ -64,3 +64,6 @@ log.aispeech.com
 tz.sec.xiaomi.com
 polaris5-normal-lq.zijieapi.com
 transit1.wslog.chinanetcenter.com
+smartad.10010.com
+m.jf.10010.com
+static.tongdun.net
