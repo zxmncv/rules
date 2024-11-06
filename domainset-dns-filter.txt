@@ -1,4 +1,5 @@
 sessions.bugsnag.com
+notify.bugsnag.com
 log-api.pangolin-sdk-toutiao-b.com
 api-access.pangolin-sdk-toutiao1.com
 log0-normal-lq.toutiaoapi.com
@@ -24,6 +25,8 @@ cards-css.iqiyi.com
 utoken.umeng.com
 .ingest.sentry.io
 .ingest.us.sentry.io
+o33249.ingest.us.sentry.io
+o4507542488023040.ingest.us.sentry.io
 analytics.adjust.io
 easytomessage.com
 ad.bwton.com
