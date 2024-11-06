@@ -68,3 +68,6 @@ smartad.10010.com
 m.jf.10010.com
 static.tongdun.net
 app-monitor.ele.me
+dx-cards-css.iqiyi.com
+enrichgw.10010.com
+tmfmazu.m.qq.com
