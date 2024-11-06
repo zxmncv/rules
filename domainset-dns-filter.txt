@@ -51,3 +51,12 @@ wa.gtimg.com
 sdk.split.io
 auth.split.io
 sentry.io
+sd-gl.xycdn.com
+conf-darwin.xycdn.com
+apd-pcdnwxlogin.teg.tencent-cloud.net
+p3-ad-sign.byteimg.com
+tnc3-bjlgy.zijieapi.com
+log2.cmpassport.com
+xyp-n.kuiniuca.com
+audid.umeng.com
+monsetting.toutiao.com
