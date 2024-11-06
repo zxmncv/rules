@@ -23,6 +23,7 @@ api.afdback.ppsimg.com
 cards-css.iqiyi.com
 utoken.umeng.com
 .ingest.sentry.io
+.ingest.us.sentry.io
 analytics.adjust.io
 easytomessage.com
 ad.bwton.com
@@ -40,3 +41,10 @@ alivc-aio.cn-hangzhou.log.aliyuncs.com
 mdap.alipay.com
 yostar-oversea-client-logging.ap-southeast-1.log.aliyuncs.com
 .log.aliyuncs.com
+doh.iqiyi.com
+dataflow.biliapi.com
+wa.gtimg.com
+.appsflyersdk.com
+sdk.split.io
+auth.split.io
+sentry.io
