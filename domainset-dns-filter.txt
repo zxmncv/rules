@@ -60,3 +60,7 @@ log2.cmpassport.com
 xyp-n.kuiniuca.com
 audid.umeng.com
 monsetting.toutiao.com
+log.aispeech.com
+tz.sec.xiaomi.com
+polaris5-normal-lq.zijieapi.com
+transit1.wslog.chinanetcenter.com
